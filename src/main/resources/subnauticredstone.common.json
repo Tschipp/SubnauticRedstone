@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "tschipp.subnauticredstone.mixin.common",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "RedstoneMixin",
+    "PressurePlateMixin",
+    "LeverMixin",
+    "StoneButtonMixin",
+    "WoodButtonMixin",
+    "TorchMixin",
+    "TorchWallMixin",
+    "WeightedPressurePlateMixin",
+    "ComparatorMixin",
+    "RepeaterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

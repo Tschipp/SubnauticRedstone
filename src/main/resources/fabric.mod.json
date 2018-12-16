@@ -1,0 +1,12 @@
+{
+  "id": "subnauticredstone",
+  "name": "Subnautic Redstone",
+  "version": "1.0.0",
+  "side": "universal",
+  "initializer": "tschipp.subnauticredstone.SubnauticRedstone",
+  "description": "Allows you to place redstone coponents underwater",
+  "mixins": {
+    "client": "subnauticredstone.client.json",
+    "common": "subnauticredstone.common.json"
+  }
+}
